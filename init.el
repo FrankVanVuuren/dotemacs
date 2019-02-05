@@ -203,9 +203,10 @@
    ;; Cider
    "ss" '(cider-eval-last-sexp :which-key "eval last sexp")
    "sc" '(cider-eval-defun-to-comment :which-key "eval comment")
-   "sr" '(cider-restart :which-key "restart cider")
    "sb" '(cider-eval-buffer :which-key "eval buffer")
    "sj" '(cider-jack-in :which-key "cider-jack-in")
+   "sr" '(cider-restart :which-key "restart cider")
+   "sq" '(cider-quit :which-key "quit cider")
    ;; Clojure-mode
    "ma" '(clojure-align :which-key "align code")
    "mf" '(cljr-promote-function :which-key "promote function")))
